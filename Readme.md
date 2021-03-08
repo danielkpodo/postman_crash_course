@@ -49,3 +49,9 @@ NB:// Postman is good for communicating with API's
 - The most simple test that we can write is to test that the status_code is 200
 
 ### Postman Variables
+
+- You can set global env. variables to use across board so that we do not repeat ourselves. Do this in the environment sectin
+
+### Extracting data from the response
+
+- You can also check if an object is received from an array

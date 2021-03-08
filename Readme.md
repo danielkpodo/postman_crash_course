@@ -29,3 +29,5 @@
 ### TESTING DATA WITH RANDOM DATA
 
 - Postman has a feature where we can send random testdata to our database by just passing a variable "{{$randomFullName}}"
+- When sending the request sometimes with random variables, sometimes we might not see what we sending. So we use the postman console to check the data we sending
+- Make use of the the postman console

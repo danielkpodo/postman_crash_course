@@ -55,3 +55,8 @@ NB:// Postman is good for communicating with API's
 ### Extracting data from the response
 
 - You can also check if an object is received from an array
+
+### Collection Runner
+
+- This where the real automation thing happens
+- The collection runner allows us to run the entire collection with just one click

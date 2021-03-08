@@ -73,3 +73,11 @@ NB:// Postman is good for communicating with API's
 - Once it is created you do not need to click, when something goes bad you will get a notification
 - When we have created this monitor essentially we have shared this collection with postman, so we need to set accessToken in the initial value
 - When something fails in the automation runner it is simply regarding something that has not being checked
+
+### NEWMAN
+
+- Newman is a cli tool that can take up all collection, run it and generate a report
+- To get access to the collection data, you need to export collection as json or use a public link
+- After exporting json file: in terminal, `newman run books.postman_collections.json`
+
+#### HTML REPORTS WITH NEWMAN

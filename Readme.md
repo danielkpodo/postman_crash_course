@@ -65,3 +65,11 @@ NB:// Postman is good for communicating with API's
 
 - This allows to set where the next request should go
 - we use `JS postman.setNextRequest('requestName, e.g list of books')`
+
+### Postman monitors
+
+- Helps us to avoid manual clicks
+- Helps to check if the book api is all the time running even without opening postman and also without starting the postman runner
+- Once it is created you do not need to click, when something goes bad you will get a notification
+- When we have created this monitor essentially we have shared this collection with postman, so we need to set accessToken in the initial value
+- When something fails in the automation runner it is simply regarding something that has not being checked

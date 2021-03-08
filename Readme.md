@@ -60,3 +60,8 @@ NB:// Postman is good for communicating with API's
 
 - This where the real automation thing happens
 - The collection runner allows us to run the entire collection with just one click
+
+### Request execution order
+
+- This allows to set where the next request should go
+- we use `JS postman.setNextRequest('requestName, e.g list of books')`

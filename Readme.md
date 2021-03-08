@@ -47,3 +47,5 @@ NB:// Postman is good for communicating with API's
 
 - Postman has no idea as to whether an API is correct, so to verify and check we test it by checking the response(status code)
 - The most simple test that we can write is to test that the status_code is 200
+
+### Postman Variables

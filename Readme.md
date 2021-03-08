@@ -25,3 +25,7 @@
 - Use 201: for post request it means -> the request has been fulfilled and resulted in a resource being created
 - Instead of using a generic name token: use accessToken instead
 - Note current value in variables is what being used by postman: Paste your accessToken there and put --- in initial value
+
+### TESTING DATA WITH RANDOM DATA
+
+- Postman has a feature where we can send random testdata to our database by just passing a variable "{{$randomFullName}}"

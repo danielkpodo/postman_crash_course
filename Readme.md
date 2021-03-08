@@ -78,6 +78,13 @@ NB:// Postman is good for communicating with API's
 
 - Newman is a cli tool that can take up all collection, run it and generate a report
 - To get access to the collection data, you need to export collection as json or use a public link
+- npm i -g newman
 - After exporting json file: in terminal, `newman run books.postman_collections.json`
 
 #### HTML REPORTS WITH NEWMAN
+
+- We use npm i -g newman-reporter-htmlextra
+- We run `newman run <link to file or public link> --reporter cli,htmlextra`
+- `newman run books.postman_collection.json --reporters cli,htmlextra --reporter-htmlextra-title "Simple Books API"`
+
+### CI/CD Overview
